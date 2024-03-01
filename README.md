@@ -1,4 +1,4 @@
-# ECEN-361 EEProm-Final
+# ECEN-361 Final Alternative:  EEPROM
 
 ## Overview / Objective
 This project is proposed as an alternative to the final exam in ECEN-361.  This exercise is designed to demonstrate:
@@ -9,7 +9,7 @@ This project is proposed as an alternative to the final exam in ECEN-361.  This 
 <br>
 * Specific understanding of SPI protocol and use to read/write from a peripheral
 <br>
-For this exam, the student is provided a pre-programmed non-volatile, serial memory device -- a 25AA0040A, 4K-bit, serial EEPROM.  This device has been programmed to contain a single question whose answer is to be written back into the same physical part.
+For this exam, the student is provided a pre-programmed non-volatile, serial memory device -- a Microchip 25AA0040A, 4K-bit, serial EEPROM.  This device has been programmed to contain a single question whose answer is to be written back into the same physical part.  Each device is unique.
 
 ## Instructions
 
@@ -23,6 +23,7 @@ For this exam, the student is provided a pre-programmed non-volatile, serial mem
 <br>
 5. Submit the part number on iLearn as demonstration of completion.
 <br>
+6. All work is to be individual
 
 ## Tips / Hints
 
