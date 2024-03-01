@@ -5,7 +5,7 @@ This project is proposed as an alternative to the final exam in ECEN-361.  This 
 
 * Understanding of STM32 programming, I/O interfacing
 <br>
-* Ability to read an previously-unknown datasheet, timing diagrams, and operational specifications
+* Ability to read an unfamiliar datasheet to interpret timing diagrams and operational specifications
 <br>
 * Specific understanding of SPI protocol and use to read/write from a peripheral
 <br>
