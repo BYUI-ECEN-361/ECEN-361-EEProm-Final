@@ -17,7 +17,12 @@ For this exam, the student is provided a pre-programmed non-volatile, serial mem
 <br>
 2. Referring the [Datasheet](./media/Microchip-EEProm-25AA040A.pdf) for the  **Microchip EEProm 25AA0040**, connect the part to the the STM32-Nucleo476RG and dump the contents. 
 <br>
-3. Answer the associated question as stored on the device.  Formulate a brief (< 512 bytes) answer and store your answer back onto the physical part.  You can over-write the contents of the EEPROM with your answer. <br> Note that your answer will include the Part# and your name.
+3. There are three questions stored on the device.  You are free to choose any one of the three to answer.
+Formulate a brief (< 512 bytes) answer and store your answer back onto the physical part.  You can over-write the contents of the EEPROM with your answer. <br> Note that your answer needs to  include the Part# and your name.  See that on the EEPROM as given to you, at address 500 is:
+```c
+500:      ID: WIN24-#xxx Name:[Replace 'Bro. Watson' w/yours]
+```
+You can overwrite your name into that location.
 <br>
 4. Return the part to the professor.  
 <br>
