@@ -4,11 +4,10 @@
 This project is proposed as an alternative to the final exam in ECEN-361.  This exercise is designed to demonstrate:
 
 * Understanding of STM32 programming, I/O interfacing
-<br>
 * Ability to read an unfamiliar datasheet to interpret timing diagrams and operational specifications
-<br>
 * Specific understanding of SPI protocol and use to read/write from a peripheral
-<br>
+
+
 For this exam, the student is provided a pre-programmed non-volatile, serial memory device -- a Microchip 25AA0040A, 4K-bit, serial EEPROM.  This device has been programmed to contain a single question whose answer is to be written back into the same physical part.  Each device is unique.
 
 ## Instructions
@@ -19,13 +18,11 @@ For this exam, the student is provided a pre-programmed non-volatile, serial mem
 <br>
 3. There are three questions stored on the device.  You are free to choose any one of the three to answer.
 Formulate a brief (< 512 bytes) answer and store your answer back onto the physical part.  You can over-write the contents of the EEPROM with your answer. <br> Note that your answer needs to  include the Part# and your name.  See that on the EEPROM as given to you, at address 500 is:
-```c
+```
 500:      ID: WIN24-#xxx Name:[Replace 'Bro. Watson' w/yours]
 ```
 You can overwrite your name into that location.
-<br>
 4. Return the part to the professor.  
-<br>
 5. Submit the part number on iLearn as demonstration of completion.
 <br>
 6. All work is to be individual
