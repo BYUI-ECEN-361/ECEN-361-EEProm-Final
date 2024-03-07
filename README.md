@@ -13,9 +13,9 @@ For this exam, the student is provided a pre-programmed non-volatile, serial mem
 ## Instructions
 
 1. Accept the pre-programmed physical part and envelope.  Note the Part# on the envelope.  This number is to be put into the assignment submission on iLearn.
-<br>
+
 2. Referring the [Datasheet](./media/Microchip-EEProm-25AA040A.pdf) for the  **Microchip EEProm 25AA0040**, connect the part to the the STM32-Nucleo476RG and dump the contents. 
-<br>
+
 3. There are three questions stored on the device.  You are free to choose any one of the three questions listed: Q1.), Q2.) or Q3.).
 
 Formulate a brief (< 512 bytes) answer and store your answer back onto the physical part.  You can over-write the contents of the EEPROM with your answer. <br> Note that your answer needs to  include the Part# and your name.  See that on the EEPROM as given to you, at address 500 is:
