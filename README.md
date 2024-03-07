@@ -39,5 +39,5 @@ Please don't over-write the ID number of the chip. It's stored in the top 12 add
 
 4.  Note the write cycle time  (AC parameter #20 Twc) takes at least 5mS.  Writing too fast won't work.  This means you'll likely need to review the prescaler on the SPI.
 
-5.) Note that the SPI does not start in the default 8-bits/transmission.  You'll need to make sure the SPI configuration matches what's required by the datasheet of the EEPROM.
+5. Note that the SPI does not start in the default 8-bits/transmission.  You'll need to make sure the SPI configuration matches what's required by the datasheet of the EEPROM.
 
