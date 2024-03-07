@@ -25,8 +25,9 @@ Formulate a brief (< 512 bytes) answer and store your answer back onto the physi
 Please don't over-write the ID number of the chip. It's stored in the top 12 addresse: locations 500-511.
 
 4. Return the part to the professor.  
+
 5. Submit the part number on iLearn as demonstration of completion.
-<br>
+
 6. All work is to be individual.  You are not to share your code or use your H/W to help another student, or get help from other students on this assignment.
 
 ## Tips / Hints
