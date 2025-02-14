@@ -1,4 +1,4 @@
-# ECEN-361 Final Alternative:  EEPROM
+# ECEN-361 Practical Exam:  EEPROM
 
 ## Overview / Objective
 This project is proposed as an alternative to the final exam in ECEN-361.  This exercise is designed to demonstrate:
@@ -20,7 +20,7 @@ For this exam, the student is provided a pre-programmed non-volatile, serial mem
 
 Formulate a brief (< 512 bytes) answer and store your answer back onto the physical part.  You can over-write the contents of the EEPROM with your answer. <br> Note that your answer needs to  include the Part# and your name.  See that on the EEPROM as given to you, at address 500 is:
 ```
-500:      ID: WIN24-#xxx 
+500:      ID: ECEN-#xxx 
 ```
 Please don't over-write the ID number of the chip. It's stored in the top 12 addresse: locations 500-511.
 
@@ -41,4 +41,8 @@ Please don't over-write the ID number of the chip. It's stored in the top 12 add
 4.  Note the write cycle time  (AC parameter #20 Twc) takes at least 5mS.  Writing too fast won't work.  This means you'll likely need to review the prescaler on the SPI.
 
 5. Note that the SPI does not start in the default 8-bits/transmission.  You'll need to make sure the SPI configuration matches what's required by the datasheet of the EEPROM.
+
+## Note:  Pass / Fail
+Either you complete the exercise or you don't.   In both cases, please return the envelope and chip to the professor.
+
 
