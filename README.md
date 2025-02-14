@@ -1,7 +1,7 @@
 # ECEN-361 Practical Exam:  EEPROM
 
 ## Overview / Objective
-This project is proposed as an alternative to the final exam in ECEN-361.  This exercise is designed to demonstrate:
+This project is proposed as an alternative to the final written exam in ECEN-361, or as extra-credit for those that want to do both.  This exercise is designed to demonstrate:
 
 * Understanding of STM32 programming, I/O interfacing
 * Ability to read an unfamiliar datasheet to interpret timing diagrams and operational specifications
